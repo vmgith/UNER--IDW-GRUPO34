@@ -4,32 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momentos Mágicos: Institucional</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="Estilos.css"> </head>
+    <title>Momentos Mágicos - Información Institucional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-xxx..." crossorigin="anonymous"> <link rel="stylesheet" href="css/estilos.css">
+</head>
 
 <body>
-    <header class="bg-light py-3">
+    <header class="bg-light py-3 mb-4">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <h1>Momentos Mágicos</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="index.html">Momentos Mágicos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="catalogo.html">Catálogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="informacionInstitucional.html">Institucional</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <nav class="nav justify-content-end">
-                        <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
-                        <a class="nav-link" href="#servicios">Servicios</a>
-                        <a class="nav-link" href="#instalaciones">Instalaciones</a>
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </nav>
-                </div>
-            </div>
+            </nav>
         </div>
     </header>
 
     <main class="container py-5">
-        <section id="quienes-somos" class="mb-4">
+        <section id="quienes-somos" class="mb-5">
             <h2 class="text-center mb-4">Información Institucional</h2>
             <h3 class="mb-3">¿Quiénes Somos?</h3>
             <p class="lead">
@@ -46,32 +60,33 @@
             </p>
         </section>
 
-        <section id="servicios" class="mb-4">
+        <section id="servicios" class="mb-5">
             <h3 class="mb-3">Servicios</h3>
             <ul class="list-group">
-                <li class="list-group-item">Animación</li>
-                <li class="list-group-item">Maquillaje artístico</li>
-                <li class="list-group-item">Castillo inflable y metegol</li>
-                <li class="list-group-item">Plaza blanda</li>
-                <li class="list-group-item">Servicio de Iluminación Láser y Máquinas de Humo</li>
-                <li class="list-group-item">Disk Jockey</li>
-                <li class="list-group-item">Candy Bar</li>
-                <li class="list-group-item">Catering</li>
-                <li class="list-group-item">Decoración</li>
-                <li class="list-group-item">Zona Photo Booth</li>
-                <li class="list-group-item">Grupo electrógeno</li>
+                <li class="list-group-item"><i class="fas fa-birthday-cake me-2"></i> Animación</li>
+                <li class="list-group-item"><i class="fas fa-palette me-2"></i> Maquillaje artístico</li>
+                <li class="list-group-item"><i class="fas fa-child me-2"></i> Castillo inflable y metegol</li>
+                <li class="list-group-item"><i class="fas fa-puzzle-piece me-2"></i> Plaza blanda</li>
+                <li class="list-group-item"><i class="fas fa-lightbulb me-2"></i> Servicio de Iluminación Láser y Máquinas
+                    de Humo</li>
+                <li class="list-group-item"><i class="fas fa-music me-2"></i> Disk Jockey</li>
+                <li class="list-group-item"><i class="fas fa-candy-cane me-2"></i> Candy Bar</li>
+                <li class="list-group-item"><i class="fas fa-utensils me-2"></i> Catering</li>
+                <li class="list-group-item"><i class="fas fa-paint-brush me-2"></i> Decoración</li>
+                <li class="list-group-item"><i class="fas fa-camera me-2"></i> Zona Photo Booth</li>
+                <li class="list-group-item"><i class="fas fa-bolt me-2"></i> Grupo electrógeno</li>
             </ul>
         </section>
 
-        <section id="instalaciones" class="mb-4">
+        <section id="instalaciones" class="mb-5">
             <h3 class="mb-3">Instalaciones</h3>
             <ul class="list-group">
-                <li class="list-group-item">Salón Amplio de 320 m² climatizado</li>
-                <li class="list-group-item">Parque de juegos con laberintos</li>
-                <li class="list-group-item">Cancha de fútbol</li>
-                <li class="list-group-item">Gazebo climatizado y ambientado con livings</li>
-                <li class="list-group-item">Sector exterior parquizado</li>
-                <li class="list-group-item">Estacionamiento propio</li>
+                <li class="list-group-item"><i class="fas fa-home me-2"></i> Salón Amplio de 320 m² climatizado</li>
+                <li class="list-group-item"><i class="fas fa-playground me-2"></i> Parque de juegos con laberintos</li>
+                <li class="list-group-item"><i class="fas fa-futbol me-2"></i> Cancha de fútbol</li>
+                <li class="list-group-item"><i class="fas fa-couch me-2"></i> Gazebo climatizado y ambientado con livings</li>
+                <li class="list-group-item"><i class="fas fa-tree me-2"></i> Sector Exterior Parquizado</li>
+                <li class="list-group-item"><i class="fas fa-parking me-2"></i> Estacionamiento propio</li>
             </ul>
         </section>
     </main>
@@ -82,7 +97,9 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVqsGF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
